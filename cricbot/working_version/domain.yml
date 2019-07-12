@@ -1,0 +1,35 @@
+slots:
+  team_name:
+    type: text
+
+actions:
+- utter_greet
+- utter_goodbye
+- action_match_news
+- result_particular_match
+- utter_default
+
+intents:
+- greet
+- current_matches
+- goodbye
+
+entities:
+ - team_name
+
+templates:
+  utter_greet:
+  - "Hey! What can I do for you?"
+  - "Yes bro?"
+  - "How can i help you?"
+
+  utter_goodbye:
+    - "Okay talk to you later"
+    - "Okay bye"
+    - "Bye bye :("
+
+  utter_default:
+    - text: "I am sorry, I didn't get that. Could you please repeat your query?"
+    - text: "I am not sure what you are aiming for."
+    - text: "Enlighten me, I am not getting you"
+    - text: "Sorry Bro, Its beyond my memory"

@@ -1,0 +1,39 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- action_match_news
+- result_particular_match
+- utter_default
+config:
+  store_entities_as_slots: true
+entities:
+- team_name
+forms: []
+intents:
+- greet:
+    use_entities: true
+- current_matches:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots:
+  team_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_default:
+  - text: I am sorry, I didn't get that. Could you please repeat your query?
+  - text: I am not sure what you are aiming for.
+  - text: Enlighten me, I am not getting you
+  - text: Sorry Bro, Its beyond my memory
+  utter_goodbye:
+  - text: Okay talk to you later
+  - text: Okay bye
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hey! What can I do for you?
+  - text: Yes bro?
+  - text: How can i help you?

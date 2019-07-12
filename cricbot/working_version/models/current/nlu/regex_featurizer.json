@@ -1,0 +1,6 @@
+[
+    {
+        "name": "team_name",
+        "pattern": "(?i)(\\bIndia\\b|\\bAustralia\\b|\\bBangladesh\\b|\\bWest\\ Indies\\b|\\bSouth\\ Africa\\b|\\bEngland\\b|\\bPakistan\\b|\\bSri\\ Lanka\\b|\\bNew\\ Zealand\\b|\\bAfghanistan\\b)"
+    }
+]

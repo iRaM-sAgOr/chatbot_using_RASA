@@ -1,0 +1,389 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey rasa"
+      },
+      {
+        "intent": "greet",
+        "text": "hi rasa"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello rasa"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Rasa"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Okay thank you rasa"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Good job"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Well done"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Smart job"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay thanks"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Thank you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Thank you Rasa"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which cricket match is happening right now"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which world cup match is next"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which teams are playing next in WC"
+      },
+      {
+        "intent": "current_matches",
+        "text": "tell me some WC news"
+      },
+      {
+        "intent": "current_matches",
+        "text": "i want WC updates"
+      },
+      {
+        "intent": "current_matches",
+        "text": "what are the latest match updates"
+      },
+      {
+        "intent": "current_matches",
+        "text": "how is WC going"
+      },
+      {
+        "intent": "current_matches",
+        "text": "when is the next match- I don't think so"
+      },
+      {
+        "intent": "current_matches",
+        "text": "is there any match today"
+      },
+      {
+        "intent": "current_matches",
+        "text": "what about today's match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "tell me about today's match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which teams are fighting today"
+      },
+      {
+        "intent": "current_matches",
+        "text": "hey what's about the match today"
+      },
+      {
+        "intent": "current_matches",
+        "text": "what do you know about today's match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "tell me about today's match."
+      },
+      {
+        "intent": "current_matches",
+        "text": "Today's match schedule"
+      },
+      {
+        "intent": "current_matches",
+        "text": "is there any match today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "What cricket matches will be played today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "What are today's cricket fixtures?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "Are there any cricket matches today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "What matches are coming up in cricket?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "matches today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which matches are there today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "cricket match today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which teams are playing today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "who are playing today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "can you list all the matches that is going to occur today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "today match schedule?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "Today's cricket match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "Ongoing cricket match today"
+      },
+      {
+        "intent": "current_matches",
+        "text": "scheduled match today"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which match will hold today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "show me the list of today's match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "What are today's matches?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "today's matches?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "which teams will play today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "Is there any match today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "Any match?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "who the fuck are gonna play this shitty game today?"
+      },
+      {
+        "intent": "current_matches",
+        "text": "todays match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "today's match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "what about todays match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "what about today's match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "make me know about todays match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "make me know about today's match"
+      },
+      {
+        "intent": "current_matches",
+        "text": "match today"
+      },
+      {
+        "intent": "current_matches",
+        "text": "Can you help me by giving me match list"
+      },
+      {
+        "intent": "current_matches",
+        "text": "Is there any live match?"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Australia",
+            "entity": "team_name"
+          }
+        ],
+        "text": "What about Australia"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Ireland",
+            "entity": "team_name"
+          }
+        ],
+        "text": "Result of match Ireland"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "India",
+            "entity": "team_name"
+          }
+        ],
+        "text": "Give me the update of India"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Bangladesh",
+            "entity": "team_name"
+          }
+        ],
+        "text": "Bangladesh"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Ireland",
+            "entity": "team_name"
+          }
+        ],
+        "text": "Ireland match"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "India",
+            "entity": "team_name"
+          }
+        ],
+        "text": "team India"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Sri Lanka",
+            "entity": "team_name"
+          }
+        ],
+        "text": "How about Sri Lanka"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Pakistan",
+            "entity": "team_name"
+          }
+        ],
+        "text": "want to know about Pakistan"
+      },
+      {
+        "intent": "match_result",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "West Indies",
+            "entity": "team_name"
+          }
+        ],
+        "text": "Give me the result of West Indies"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "team_name",
+        "elements": [
+          "India",
+          "Australia",
+          "Bangladesh",
+          "West Indies",
+          "South Africa",
+          "England",
+          "Pakistan",
+          "Sri Lanka",
+          "New Zealand",
+          "Afghanistan"
+        ]
+      }
+    ],
+    "entity_synonyms": []
+  }
+}
